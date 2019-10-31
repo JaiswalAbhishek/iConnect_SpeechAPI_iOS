@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PROFILEiMAGE" translatesAutoresizingMaskIntoConstraints="NO" id="rVL-39-b2y">
+                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="KeJ-3E-aAQ"/>
+                                    <constraint firstAttribute="height" constant="200" id="bin-g0-Ruv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  iCONNECT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfW-GF-bLg">
+                                <rect key="frame" x="0.0" y="443" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kiv-Ya-sdg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONNECT WITH WORLD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ud-1d-VvG">
+                                <rect key="frame" x="0.0" y="498" width="375" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="4hX-eN-lkG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yfW-GF-bLg" secondAttribute="trailing" id="6ay-6Q-Qf4"/>
+                            <constraint firstItem="8Ud-1d-VvG" firstAttribute="top" secondItem="yfW-GF-bLg" secondAttribute="bottom" constant="5" id="9Bb-KP-koA"/>
+                            <constraint firstAttribute="trailing" secondItem="8Ud-1d-VvG" secondAttribute="trailing" id="Glr-ZO-QYA"/>
+                            <constraint firstItem="8Ud-1d-VvG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="P40-gH-yj4"/>
+                            <constraint firstItem="yfW-GF-bLg" firstAttribute="top" secondItem="rVL-39-b2y" secondAttribute="bottom" constant="10" id="RiU-OJ-HF2"/>
+                            <constraint firstItem="rVL-39-b2y" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Utk-lp-oZq"/>
+                            <constraint firstItem="rVL-39-b2y" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="WBa-aY-21W"/>
+                            <constraint firstItem="yfW-GF-bLg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="nOx-fq-0Ym"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PROFILEiMAGE" width="541" height="525"/>
+    </resources>
+</document>
